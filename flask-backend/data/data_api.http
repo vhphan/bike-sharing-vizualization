@@ -1,0 +1,14 @@
+GET http://localhost:5000/bikes/count-per-station/2016-01-01/2016-01-31
+Accept: application/json
+
+###
+GET http://localhost:5000/bikes/count-day-hour/2016-01-01/2016-01-31
+Accept: application/json
+
+###
+GET http://localhost:5000/bikes
+Accept: application/json
+
+###
+GET http://localhost:5000/bikes/available-dates
+Accept: application/json
