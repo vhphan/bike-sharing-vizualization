@@ -119,7 +119,6 @@ export default {
       const countArray = this.bikesData.features.map(d => {
         return d.properties.count;
       })
-      console.log(countArray);
       const maxValue = Math.max(...countArray);
       const minValue = Math.min(...countArray);
       const scaled = function (value) {
